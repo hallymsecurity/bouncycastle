@@ -6,3 +6,7 @@
 
 
 이중에서 가장 많이 사용되는 것은 **MD5**와 **SHA-1**이다. 하지만 <u>안전하지 않다</u>는 것이 밝혀져있다. NIST에서는 2008년 SHA-1 사용을 중지하며 SHA-2를 사용할 것이라고 발표했다.
+
+
+아래는 해쉬 함수를 테스트 한 것이다.
+![test](https://github.com/kkjy0519/bouncycastle/blob/Member_1/images/Test_sha256.png?raw=true)
