@@ -58,8 +58,8 @@ public class SimpleSymmetricExample  {
 			
 			System.out.println ("plaintext :" + Utils.toHexString(plainText,decryptedLen));
 		
-			
-			modify for forktest
+			//modification
+
 	}
 
 	
