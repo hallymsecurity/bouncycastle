@@ -26,40 +26,4 @@ public class SimpleSymmetricExample  {
 			                0x07, 0x06, 0x05, 0x04, 0x03, 0x02, 0x01, 0x00,
 			                0x07, 0x06, 0x05, 0x04, 0x03, 0x02, 0x01, 0x00};
 			
-			SecretKeySpec key = new SecretKeySpec(keyBytes, "AES");
-			IvParameterSpec iv = new IvParameterSpec(ivBytes);
-			
-			Cipher cipher = Cipher.getInstance("AES/CBC/PKCS7Padding", "BC");
-			
-			
-			
-			System.out.println("input : " + Utils.toHexString(input));
-			
-			cipher.init(Cipher.ENCRYPT_MODE, key, iv);
-			
-			byte[] output = new byte[cipher.getOutputSize(input.length)];
-			int processLen;
-			
-			processLen = cipher.update(input, 0, input.length, output, 0);
-			
-			processLen += cipher.doFinal(output, processLen);
-			
-			
-			System.out.println("output : " +Utils.toHexString(output));
-			
-			
-			cipher.init(Cipher.DECRYPT_MODE, key, iv);
-			
-			byte[] plainText = 
-				new byte[cipher.getOutputSize(output.length)];
-			
-			int decryptedLen = cipher.update(output, 0, output.length, plainText,0);
-			decryptedLen += cipher.doFinal(plainText, decryptedLen);
-			
-			System.out.println ("plaintext :" + Utils.toHexString(plainText,decryptedLen));
-		
-		
-	}
 
-	
-}
