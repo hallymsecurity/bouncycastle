@@ -58,7 +58,7 @@ public class SimpleSymmetricExample  {
 			
 			System.out.println ("plaintext :" + Utils.toHexString(plainText,decryptedLen));
 		
-			//modification
+			//modification11
 		
 	}
 
