@@ -1,6 +1,6 @@
 Explanation of GitHub's SSH
 =
-SSH란?(https://terms.naver.com/entry.nhn?docId=3351634&cid=40942&categoryId=32828)
+[SSH란?](https://terms.naver.com/entry.nhn?docId=3351634&cid=40942&categoryId=32828)
 -
 Secure Shell의 약어.
 인터넷상에서 두 호스트(Host) 사이의 통신 암호화 관련 인증 기술들을 사용하여, 안전한 접속과 통신을 제공하는 프로토콜을 의미한다. 이 프로토콜은 보안에 취약점을 가지고 있는 프로토콜, 즉 원격 로그인(rlogin), 원격 명령 실행(rsh), 원격 파일 복사(rcp), 원격 접속 서비스(telnet), 파일 전송용 프로토콜(ftp) 등을 대체하여 사용되며, 임의의 포트에 대해 안전한 채널을 제공하고 있다.
@@ -19,4 +19,7 @@ GitHub에서의 SSH
 3. 우측 상단의 Add deploy key를 클릭한다.
 4. key에 자신의 public키를 입력한 후 쓰기를 원할경우 Allow write access를 체크한다.(체크하지 않을시 읽기만 가능)
 5. Clone시 ssh주소를 사용하며 private키로 로그인한다.
+![SSH-1](https://github.com/kkjy0519/bouncycastle/tree/Member_2/SSH%20Image/SSH-1.png)
+![SSH-2](https://github.com/kkjy0519/bouncycastle/tree/Member_2/SSH%20Image/SSH-2.png)
+![SSH-3](https://github.com/kkjy0519/bouncycastle/tree/Member_2/SSH%20Image/SSH-3.png)
 
