@@ -16,10 +16,10 @@ GitHub에서의 SSH
 ### GitHub에서의 SSH설정 방법
 1. SSH사용을 원하는 repository의 Settings를 클릭한다.
 2. Settings의 Options중 Deploy keys를 클릭한다.
+![SSH-1](https://github.com/kkjy0519/bouncycastle/blob/Member_2/SSH%20Image/SSH-1.PNG)
 3. 우측 상단의 Add deploy key를 클릭한다.
 4. key에 자신의 public키를 입력한 후 쓰기를 원할경우 Allow write access를 체크한다.(체크하지 않을시 읽기만 가능)
+![SSH-2](https://github.com/kkjy0519/bouncycastle/blob/Member_2/SSH%20Image/SSH-2.PNG)
 5. Clone시 ssh주소를 사용하며 private키로 로그인한다.
-![SSH-1](https://github.com/kkjy0519/bouncycastle/tree/Member_2/SSH%20Image/SSH-1.png)
-![SSH-2](https://github.com/kkjy0519/bouncycastle/tree/Member_2/SSH%20Image/SSH-2.png)
-![SSH-3](https://github.com/kkjy0519/bouncycastle/tree/Member_2/SSH%20Image/SSH-3.png)
+![SSH-3](https://github.com/kkjy0519/bouncycastle/blob/Member_2/SSH%20Image/SSH-3.PNG)
 
