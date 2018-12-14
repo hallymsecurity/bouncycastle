@@ -26,6 +26,7 @@ public class SimpleSymmetricExample  {
 			                0x07, 0x06, 0x05, 0x04, 0x03, 0x02, 0x01, 0x00,
 			                0x07, 0x06, 0x05, 0x04, 0x03, 0x02, 0x01, 0x00};
 			
+
 			SecretKeySpec key = new SecretKeySpec(keyBytes, "AES");
 			IvParameterSpec iv = new IvParameterSpec(ivBytes);
 			
@@ -58,7 +59,9 @@ public class SimpleSymmetricExample  {
 			
 			System.out.println ("plaintext :" + Utils.toHexString(plainText,decryptedLen));
 		
+			//modification
+
+
 	}
 
-	
-}
+//modify
